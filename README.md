@@ -4,7 +4,7 @@ RushType is a retro-pixeled typing game inspired by Tetris. The game helps impro
 
 ## Features
 - Different difficulty levels: Easy, Medium, Hard
-- Typing challenge with increasing speed
+- Typing challenge
 - Game over screen and score tracking
 
 ## How to Play

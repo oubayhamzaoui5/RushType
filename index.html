@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RushType - Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mobile-message" style="display:none;">
+        <p>This game is only playable on PC. Please use a desktop computer to play.</p>
+    </div>
+    
+    <div class="best-score" id="best-score">
+        <div id="best-score">Best Score: <span id="best-score-value">0</span></div>
+    </div>
+
+    <div class="startcontent">
+        <span class="justt" id="justt">Just type</span>
+        <div id="start-text">
+            <span class="start-letter">S</span>
+            <span class="start-letter">T</span>
+            <span class="start-letter">A</span>
+            <span class="start-letter">R</span>
+            <span class="start-letter">T</span>
+        </div>
+    </div>
+
+    <div id="difficulty-container">
+        <button id="easy-btn" class="difficulty-btn">Easy</button>
+        <button id="medium-btn" class="difficulty-btn selected">Medium</button>
+        <button id="hard-btn" class="difficulty-btn">Hard</button>
+    </div>
+
+    <div id="word-container"></div>
+
+    <div id="game-over">GAME OVER</div>
+    
+    <div id="final-score">Score: <span id="final-score-value">0</span></div>
+    
+    <button id="restart-btn" onclick="restartGame()">HOME</button>
+
+    <div class="container">
+        <div id="score" style="display:none;">Score: <span id="score-value">0</span></div>
+        <div id="multiplier" style="display:none;"><span id="multiplier-value">x1</span></div>
+    </div>
+
+    <div id="timer" style="display:none;">Time: <span id="timer-value">30</span>s</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
